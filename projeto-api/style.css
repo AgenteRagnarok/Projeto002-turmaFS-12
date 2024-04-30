@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnmoKmTnBU2IXffaxykYb92fx8idOw37nKfeqw84Vw&s');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Para manter a imagem fixa enquanto você rola a página */
+    padding-top: 222px;
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.938), rgb(8, 8, 73));
+    color: white;
+}
+
+.navbar, main h4 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.938), rgb(8, 8, 73));
+}
+
+nav a:hover {
+    background-color: rgba(3, 3, 160, 0.712);
+    transition: 0.4s;
+}
+
+ h1, h3,h4 {
+    font-family: "Anton", sans-serif;
+}
+
+ .carousel-inner {
+    border-radius: 0px 0px 15px 15px;
+}
+
+footer {
+    background-color: black;
+}
